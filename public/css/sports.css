@@ -1,0 +1,56 @@
+body{
+    margin: 50px;
+    background-image: url("https://t3.ftcdn.net/jpg/04/35/30/92/360_F_435309207_QlHm8Ep8USg6CFzpsLPXYVAwTaPc1zlI.jpg");
+}
+.container{
+    width: 80%;
+    background-color: #4a5568;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+h1{
+    padding: 5px;
+    color: gold;
+}
+table, th, td {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+table th{
+    background-color: #5b4646 !important;
+    color: gold !important;
+}
+th:hover{
+    background-color: gold!important;
+    color: black!important;
+    cursor: pointer!important;
+}
+table td{
+    background-color: whitesmoke!important;
+    color: darkred!important;
+}
+img{
+    vertical-align: middle;
+    width: 220px;
+}
+a{
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: gold;
+}
+.hidden{
+    display: none;
+}
+label{
+    margin: 10px;
+    border: 1px solid black;
+    color: blue;
+    background-color: whitesmoke;
+}
